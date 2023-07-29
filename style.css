@@ -1,0 +1,27 @@
+body{
+    cursor: none;
+}
+
+.cursor-dot{
+    width: 35px;
+    height: 35px;
+    border: 2px solid hsla(0, 0%, 100%, 0.5);
+}
+
+.cursor-dot,
+.cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+    
+}
+/* @media only screen (min-width:) {
+    
+} */
+*{
+    scroll-behavior: smooth;
+}
