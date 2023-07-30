@@ -58,10 +58,8 @@ const Home = () => {
         </h1>
         </div>
 
-      <video  autoPlay={true}
-      loop={true}
-      controls={false} 
-      playsInline={false}
+      <video  autoPlay
+      loop
       muted >
       <source  src={Person} type="video/mp4"/>
       </video>
