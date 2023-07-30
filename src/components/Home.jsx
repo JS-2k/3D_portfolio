@@ -46,7 +46,7 @@ const Home = () => {
                    2000,
                    'web 3.0',
                    2000,
-                   'dApps',
+                   'music producer',
                    2000
                  ]}
                  wrapper="div"
