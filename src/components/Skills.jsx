@@ -22,6 +22,8 @@ import js from '../assets/jayasundarraajan.pdf';
 import Background from './Background';
 import express from '../assets/tech/express.svg';
 import angular from '../assets/tech/angular.svg';
+import vstudio from '../assets/tech/vstudio.svg';
+import blender from '../assets/tech/blender.svg';
 
 
 const Skills = () => {
@@ -58,6 +60,11 @@ const Skills = () => {
         <img src={solidity} className='border rounded' width={40}/>
         <img src={web3} className='border rounded' width={40}/>
         <img src={git} className='border rounded' width={40}/>
+        <img src={vstudio} className='border rounded' width={40}/>
+        </div>
+
+        <div className='rounded flex gap-5 justify-center mt-5 mb-5 'data-aos='fade-up'>
+        <img src={blender} className='border rounded' width={40}/>
         <img src={FL} className='border rounded' width={40}/>
         </div>
         </Tilt></div>
