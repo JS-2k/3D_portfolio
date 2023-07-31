@@ -15,13 +15,13 @@ import FL from '../assets/tech/flstudio.svg';
 import AOS from 'aos';
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-// import { Tilt } from 'react-tilt';
 import {AiOutlineHome, AiOutlineMail, AiOutlineProject } from "react-icons/ai";
 import {BsPerson} from 'react-icons/bs'; 
-// import yara from '../assets/yara.png';
 import Tilt from 'react-parallax-tilt';
 import js from '../assets/jayasundarraajan.pdf';
 import Background from './Background';
+import express from '../assets/tech/express.svg';
+import angular from '../assets/tech/angular.svg';
 
 
 const Skills = () => {
@@ -43,17 +43,19 @@ const Skills = () => {
         <img src={javascript} className='border rounded' width={40}/>
         <img src={typescript} className='border rounded' width={40}/>
         <img src={reactjs} className='border rounded' width={40}/>
+        <img src={angular} className='border rounded' width={40}/>
         <img src={tailwind} className='border rounded' width={40}/> </div>
 
         <div className='rounded flex gap-5 justify-center mt-5 mb-5 'data-aos='zoom-in'>
         <img src={redux} className='border rounded' width={40}/>
         <img src={threejs} className='border text-white rounded' width={40}/>
         <img src={nodejs} className='border rounded' width={40}/>
+        <img src={express} className='border rounded' width={40}/>
         <img src={mongodb} className='border rounded' width={40}/>
-        <img src={solidity} className='border rounded' width={40}/>
         </div>
 
         <div className='rounded flex gap-5 justify-center mt-5 mb-5 'data-aos='fade-up'>
+        <img src={solidity} className='border rounded' width={40}/>
         <img src={web3} className='border rounded' width={40}/>
         <img src={git} className='border rounded' width={40}/>
         <img src={FL} className='border rounded' width={40}/>
