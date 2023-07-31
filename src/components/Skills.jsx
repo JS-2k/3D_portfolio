@@ -46,9 +46,10 @@ const Skills = () => {
         <img src={typescript} className='border rounded' width={40}/>
         <img src={reactjs} className='border rounded' width={40}/>
         <img src={angular} className='border rounded' width={40}/>
-        <img src={tailwind} className='border rounded' width={40}/> </div>
+        </div>
 
         <div className='rounded flex gap-5 justify-center mt-5 mb-5 'data-aos='zoom-in'>
+        <img src={tailwind} className='border rounded' width={40}/> 
         <img src={redux} className='border rounded' width={40}/>
         <img src={threejs} className='border text-white rounded' width={40}/>
         <img src={nodejs} className='border rounded' width={40}/>
