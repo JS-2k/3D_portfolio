@@ -8,6 +8,7 @@ import dalle from '../assets/dalle.png';
 import Background from "./Background";
 import {AiFillYoutube} from 'react-icons/ai'
 import {FaTwitter  , FaInstagram , FaLinkedinIn } from 'react-icons/fa';
+import todo from '../assets/todo.png';
 
 const About = () => {
   return (
@@ -41,6 +42,15 @@ const About = () => {
         <img src={dalle} className="w-52" alt="" /></div>
         <div data-aos="fade-up" className="mt-9">
         <h2 className="text-white text-center">DALL-E clone Web Application</h2>
+        <h5 className="text-white text-center">Mern Stack</h5></div>
+        </Tilt></div>
+
+        <div data-aos="fade-left" className="place-self-center">
+        <Tilt className='bg-white/20 border rounded-md w-max p-5'  data-aos='fade-right'>
+      <div className='rounded flex gap-5 justify-center mt-5 ' data-aos='fade-down'>
+        <img src={todo} className="w-52" alt="" /></div>
+        <div data-aos="fade-up" className="mt-9">
+        <h2 className="text-white text-center">ToDo-list Web Application</h2>
         <h5 className="text-white text-center">Mern Stack</h5></div>
         </Tilt></div>
         </div>
