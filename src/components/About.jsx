@@ -11,6 +11,7 @@ import {FaTwitter  , FaInstagram , FaLinkedinIn } from 'react-icons/fa';
 import todo from '../assets/todo.png';
 
 const About = () => {
+  
   return (
     <div className="bg-black">
       
@@ -18,23 +19,23 @@ const About = () => {
       <h1 className="text-center text-4xl font-bold text-white mb-5 pt-16 sm:justify-center"  data-aos='fade-up'>About</h1>
       <div className='md:flex grid grid-cols-1 place-self-center justify-center gap-5'>
         
-        <div data-aos="fade-right" className="place-self-center">
+      <a href="https://yaraelectronics.com/" target="blank"><div data-aos="fade-right" className="place-self-center">
       <Tilt className='bg-white/20 border rounded-md w-max p-5'  data-aos='fade-right'>
       <div className='rounded flex gap-5 justify-center mt-5 ' data-aos='fade-down'>
         <img src={yara} className="w-52" alt="" /></div> 
         <div data-aos="fade-up" className="mt-5">
         <h2 className="text-white text-center">E-commerce Web Application</h2>
         <h6 className="text-white font-[12px] text-center">html,css,bootstrap,javascript</h6></div>
-        </Tilt></div>
+        </Tilt></div> </a>
         
-        <div data-aos="zoom-in" className="place-self-center">
+        <a href="https://www.frigate.ai/" target="blank"><div data-aos="zoom-in" className="place-self-center">
         <Tilt className='bg-white/20 border rounded-md w-max p-5'  data-aos='fade-right'>
       <div className='rounded flex gap-5 justify-center mt-5 ' data-aos='fade-down'>
         <img src={frigate} className="w-52" alt="" /></div>
         <div data-aos="fade-up" className="mt-5">
         <h2 className="text-white text-center">Admin panel Web Application</h2>
         <h5 className="text-white text-center">Angular Framework</h5></div>
-        </Tilt></div>
+        </Tilt></div></a>
         
         <div data-aos="fade-left" className="place-self-center">
         <Tilt className='bg-white/20 border rounded-md w-max p-5'  data-aos='fade-right'>
