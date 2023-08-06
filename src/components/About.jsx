@@ -7,7 +7,8 @@ import frigate from '../assets/frigate.jpg';
 import dalle from '../assets/dalle.png';
 import Background from "./Background";
 import {AiFillYoutube} from 'react-icons/ai'
-import {FaTwitter  , FaInstagram , FaLinkedinIn } from 'react-icons/fa';
+import {AiFillGithub} from 'react-icons/ai'
+import { FaInstagram , FaLinkedinIn } from 'react-icons/fa';
 import todo from '../assets/todo.png';
 
 const About = () => {
@@ -60,7 +61,7 @@ const About = () => {
 
         <div data-aos='fade-left' className="place-self-center text-center justify-center items-center flex mt-5">
         <div className='flex justify-between text-center items-center pt-5 max-w-[200px] w-full place-self-center'>
-                    <a href="https://twitter.com/jayasundarjs001/" target='blank'><FaTwitter className='cursor-pointer text-center text-white hover:text-purple-800' href="#" size={20} /></a>
+                    <a href="https://github.com/JS-2k" target='blank'><AiFillGithub className='cursor-pointer text-center text-white hover:text-purple-800' href="#" size={20} /></a>
                     <a href="https://youtube.com/@Vishnuh" target='blank'><AiFillYoutube className='cursor-pointer text-white hover:text-purple-800' size={20}/></a>
                     <a href="https://instagram.com/js_jayasundar?igshid=OGQ5ZDc2ODk2ZA==" target='blank'><FaInstagram className='cursor-pointer text-white  hover:text-purple-800' href="#" size={20}/></a>
                     <a href="https://www.linkedin.com/in/jayasundar-raajan-42475b204" target='blank'><FaLinkedinIn className='cursor-pointer text-white hover:text-purple-800' href="#" size={20}/></a>
